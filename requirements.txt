@@ -5,7 +5,7 @@ PasteDeploy==1.5.0
 WebOb==1.2.3
 beautifulsoup4==4.2.1
 bottle==0.11.6
-distribute==0.6.45
+distribute==0.7.3
 docutils==0.10
 pymongo==2.5.2
 pyramid==1.4.2
