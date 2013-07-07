@@ -10,3 +10,4 @@ python-3.3.2 in runtime.txt
 
 git push heroku master
 
+I had to upgarde my installation of distribute.py

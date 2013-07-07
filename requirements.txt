@@ -7,6 +7,7 @@ beautifulsoup4==4.2.1
 bottle==0.11.6
 distribute==0.7.3
 docutils==0.10
+psycopg2==2.5.1
 pymongo==2.5.2
 pyramid==1.4.2
 repoze.lru==0.6
