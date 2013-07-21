@@ -1,4 +1,4 @@
-
+from https://github.com/kennethlove/Getting-Started-With-Django
 
 pip-3.2 freeze > requirements.txt
 

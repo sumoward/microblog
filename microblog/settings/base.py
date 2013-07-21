@@ -4,6 +4,7 @@ Created on 7 Jul 2013
 @author: development
 '''
 import os
+import dj_database_url
 
 #import dj_database_url
 
@@ -21,7 +22,7 @@ ADMINS = (
 MANAGERS = ADMINS
 
 DATABASES = {
-    #'default': dj_database_url.config()
+    'default': dj_database_url.config()
 }
 
 # Local time zone for this installation. Choices can be found here:
