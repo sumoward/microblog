@@ -18,4 +18,5 @@ heroku logs is your friend
 my database is template1
 
 
+heroku run python manage.py syncdb
 
