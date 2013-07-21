@@ -15,3 +15,7 @@ git push heroku master
 heroku logs is your friend
 
 
+my database is template1
+
+
+
