@@ -1,12 +1,6 @@
-'''
-Created on 7 Jul 2013
-
-@author: development
-'''
 import os
-import dj_database_url
 
-#import dj_database_url
+import dj_database_url
 
 here = lambda * x: os.path.join(os.path.abspath(os.path.dirname(__file__)), *x)
 PROJECT_ROOT = here("..")
@@ -16,7 +10,7 @@ DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    ("brian Ward", "brian.g.ward@gmail.com"),
+    ("Kenneth Love", "kenneth@brack3t.com"),
 )
 
 MANAGERS = ADMINS
