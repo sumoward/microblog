@@ -16,7 +16,7 @@ DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    ("Kenneth Love", "kenneth@brack3t.com"),
+    ("brian Ward", "brian.g.ward@gmail.com"),
 )
 
 MANAGERS = ADMINS
@@ -119,11 +119,11 @@ DJANGO_APPS = (
 )
 
 THIRD_PARTY_APPS = (
-    
+    'south',
 )
 
 LOCAL_APPS = (
-    
+    'blog',
 )
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS

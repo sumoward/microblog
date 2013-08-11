@@ -1,1 +1,8 @@
-<h1>howdy</h1>
+{% extends "_layouts/base.html" %}
+{% load url from future %}
+
+{% block page_content %}
+<div class="row-fluid">
+    <a href="{% url 'blog:list' %}" class="btn">Read my blog</a>
+</div>
+{% endblock %}
